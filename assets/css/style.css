@@ -1880,3 +1880,40 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  background: var(--eerie-black-2);
+  border-top: 1px solid var(--jet);
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-copyright {
+  color: var(--light-gray);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social a {
+  color: var(--light-gray);
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: var(--orange-yellow-crayola);
+}
